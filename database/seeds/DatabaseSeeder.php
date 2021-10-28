@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\Book;
+//nos permite llamar el usuario y tambien la cantidad de datos a crear
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +12,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+       factory(Book::class, 50)->create();
     }
 }

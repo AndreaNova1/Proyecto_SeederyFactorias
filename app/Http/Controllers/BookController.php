@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Book;
 use Illuminate\Http\Request;
-
+//controlador
 class BookController extends Controller
 {
     public function bList(){

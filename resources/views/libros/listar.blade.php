@@ -11,7 +11,7 @@
                     <img src="https://thumbs.dreamstime.com/b/un-mont%C3%B3n-de-libros-libro-abierto-y-l%C3%A1piz-suministros-escolares-objetos-dibujos-animados-vectoriales-aislados-en-fondo-blanco-192812588.jpg" width="100" height="120" class="rounded mx-auto d-block" alt="...">
                     <br>
                 </a>
-                <h2 class="text-center mb-5">Registro de Prestamos</h2>
+                <h2 class="text-center mb-5">Registro De Prestamo de Libros</h2>
                 @if(session('usuarioEliminado'))
                     <div class="alert alert-success">
                         {{session('usuarioEliminado')}}
@@ -54,7 +54,7 @@
 
                     </tbody>
                 </table>
-
+                {{ $Books->links() }}
             </div>
         </div>
 
