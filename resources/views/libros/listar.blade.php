@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 <div class="Container mt-1">
-    @section('title', 'User List')
+    @section('title', 'Book List')
 
     @section('content')
         <div  class="row justify-content-center">
@@ -17,9 +17,9 @@
                         {{session('usuarioEliminado')}}
                     </div>
                 @endif
-                <table class="table table-bordered table-striped text-center  ">
+                <table class="table table-bordered table-striped text-center   ">
                     <thead>
-                    <tr>
+                    <tr class="p-3 mb-2 bg-info text-white">
                         <th>Titulo</th>
                         <th>Nombre</th>
                         <th>Email</th>

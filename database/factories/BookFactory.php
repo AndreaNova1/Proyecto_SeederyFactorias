@@ -4,7 +4,7 @@
 
 use App\Book;
 use Faker\Generator as Faker;
-//se indica el campo que deseamos llenar
+/
 $factory->define(Book::class, function (Faker $faker) {
     return [
         'titulo'=>$faker->title,
